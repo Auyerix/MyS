@@ -1,0 +1,25 @@
+21:16:50 **** Incremental Build of configuration Debug for project plc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+21:24:51 **** Incremental Build of configuration Debug for project plc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/plc.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/plc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../plc_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/plc.d" -MT"src/plc.o" -o "src/plc.o" "../src/plc.c"
+'Finished building: ../src/plc.c'
+' '
+'Building target: plc.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../plc_bsp/ps7_cortexa9_0/lib -o "plc.elf"  ./src/plc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: plc.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size plc.elf  |tee "plc.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22420	   1144	  22568	  46132	   b434	plc.elf
+'Finished building: plc.elf.size'
+' '

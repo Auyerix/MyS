@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sat Sep 28 20:38:31 2024
+# Process ID: 21620
+# Current directory: C:/Working/MyS/Sistema_Sumador_IP/Sintesis/sistema_sumador.runs/synth_1
+# Command line: vivado.exe -log sistema_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sistema_wrapper.tcl
+# Log file: C:/Working/MyS/Sistema_Sumador_IP/Sintesis/sistema_sumador.runs/synth_1/sistema_wrapper.vds
+# Journal file: C:/Working/MyS/Sistema_Sumador_IP/Sintesis/sistema_sumador.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source sistema_wrapper.tcl -notrace
