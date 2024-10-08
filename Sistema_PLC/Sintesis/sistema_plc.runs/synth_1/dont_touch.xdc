@@ -7,14 +7,14 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==sistema || ORIG
 # IP: bd/sistema/ip/sistema_processing_system7_0_0/sistema_processing_system7_0_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==sistema_processing_system7_0_0 || ORIG_REF_NAME==sistema_processing_system7_0_0} -quiet] -quiet
 
-# IP: bd/sistema/ip/sistema_protocheck_ip_0_0/sistema_protocheck_ip_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==sistema_protocheck_ip_0_0 || ORIG_REF_NAME==sistema_protocheck_ip_0_0} -quiet] -quiet
-
 # IP: bd/sistema/ip/sistema_ps7_0_axi_periph_0/sistema_ps7_0_axi_periph_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==sistema_ps7_0_axi_periph_0 || ORIG_REF_NAME==sistema_ps7_0_axi_periph_0} -quiet] -quiet
 
 # IP: bd/sistema/ip/sistema_rst_ps7_0_50M_0/sistema_rst_ps7_0_50M_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==sistema_rst_ps7_0_50M_0 || ORIG_REF_NAME==sistema_rst_ps7_0_50M_0} -quiet] -quiet
+
+# IP: bd/sistema/ip/sistema_protocheck3_ip_0_0/sistema_protocheck3_ip_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==sistema_protocheck3_ip_0_0 || ORIG_REF_NAME==sistema_protocheck3_ip_0_0} -quiet] -quiet
 
 # IP: bd/sistema/ip/sistema_auto_pc_0/sistema_auto_pc_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==sistema_auto_pc_0 || ORIG_REF_NAME==sistema_auto_pc_0} -quiet] -quiet

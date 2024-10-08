@@ -1,0 +1,756 @@
+dataset reload -f
+# Dataset not found: 
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd failed with 9 errors.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd failed with 3 errors.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 2 failed with 12 errors.
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.protocheck_tb
+# vsim -gui work.protocheck_tb 
+# Start time: 12:08:23 on Oct 02,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.protocheck_tb(protocheck_tb_arq)
+# Loading work.protocheck(protocheck_arq)
+# Loading work.comparador(comparador_arq)
+# Loading work.shiftreg(shiftreg_arq)
+# Loading work.ffd(ffd_arq)
+# Loading work.genena(genena_arq)
+# Loading work.serial_sender(behavioral)
+add wave -position end  sim:/protocheck_tb/clk_tb
+add wave -position end  sim:/protocheck_tb/rst_tb
+add wave -position end  sim:/protocheck_tb/ena_tb
+add wave -position end  sim:/protocheck_tb/data_o_tb
+add wave -position end  sim:/protocheck_tb/q_o_tb
+run
+quit -sim
+# End time: 12:12:14 on Oct 02,2024, Elapsed time: 0:03:51
+# Errors: 0, Warnings: 13
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd failed with 1 errors.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd failed with 3 errors.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 1 failed with 3 errors.
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd failed with 3 errors.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 1 failed with 3 errors.
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.protocheck_tb
+# vsim -gui work.protocheck_tb 
+# Start time: 12:31:41 on Oct 02,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.protocheck_tb(protocheck_tb_arq)
+# Loading work.protocheck(protocheck_arq)
+# Loading work.comparador(comparador_arq)
+# Loading work.shiftreg(shiftreg_arq)
+# Loading work.ffd(ffd_arq)
+# Loading work.genena(genena_arq)
+# Loading work.serial_sender(behavioral)
+add wave -position end  sim:/protocheck_tb/clk_tb
+add wave -position end  sim:/protocheck_tb/rst_tb
+add wave -position end  sim:/protocheck_tb/ena_tb
+add wave -position end  sim:/protocheck_tb/data_o_tb
+add wave -position end  sim:/protocheck_tb/q_o_tb
+run
+quit -sim
+# End time: 12:58:47 on Oct 02,2024, Elapsed time: 0:27:06
+# Errors: 0, Warnings: 5
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.protocheck_tb
+# vsim -gui work.protocheck_tb 
+# Start time: 12:59:04 on Oct 02,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.protocheck_tb(protocheck_tb_arq)
+# Loading work.protocheck(protocheck_arq)
+# Loading work.comparador(comparador_arq)
+# Loading work.shiftreg(shiftreg_arq)
+# Loading work.ffd(ffd_arq)
+# Loading work.genena(genena_arq)
+# Loading work.serial_sender(behavioral)
+add wave -position end  sim:/protocheck_tb/clk_tb
+add wave -position end  sim:/protocheck_tb/rst_tb
+add wave -position end  sim:/protocheck_tb/ena_tb
+add wave -position end  sim:/protocheck_tb/data_o_tb
+add wave -position end  sim:/protocheck_tb/q_o_tb
+run
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+quit -sim
+# End time: 13:05:18 on Oct 02,2024, Elapsed time: 0:06:14
+# Errors: 0, Warnings: 1
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.protocheck_tb
+# vsim -gui work.protocheck_tb 
+# Start time: 13:05:41 on Oct 02,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.protocheck_tb(protocheck_tb_arq)
+# Loading work.protocheck(protocheck_arq)
+# Loading work.comparador(comparador_arq)
+# Loading work.shiftreg(shiftreg_arq)
+# Loading work.ffd(ffd_arq)
+# Loading work.genena(genena_arq)
+# Loading work.serial_sender(behavioral)
+add wave -position end  sim:/protocheck_tb/clk_tb
+add wave -position end  sim:/protocheck_tb/rst_tb
+add wave -position end  sim:/protocheck_tb/ena_tb
+add wave -position end  sim:/protocheck_tb/data_o_tb
+add wave -position end  sim:/protocheck_tb/q_o_tb
+run
+quit -sim
+# End time: 13:07:34 on Oct 02,2024, Elapsed time: 0:01:53
+# Errors: 0, Warnings: 2
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd failed with 2 errors.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 1 failed with 2 errors.
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd failed with 1 errors.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd failed with 1 errors.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.protocheck_tb
+# vsim -gui work.protocheck_tb 
+# Start time: 13:13:00 on Oct 02,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.protocheck_tb(protocheck_tb_arq)
+# Loading work.protocheck(protocheck_arq)
+# Loading work.comparador(comparador_arq)
+# Loading work.shiftreg(shiftreg_arq)
+# Loading work.ffd(ffd_arq)
+# Loading work.genena(genena_arq)
+# Loading work.serial_sender(behavioral)
+add wave -position end  sim:/protocheck_tb/clk_tb
+add wave -position end  sim:/protocheck_tb/rst_tb
+add wave -position end  sim:/protocheck_tb/ena_tb
+add wave -position end  sim:/protocheck_tb/data_o_tb
+add wave -position end  sim:/protocheck_tb/q_o_tb
+run
+run
+quit -sim
+# End time: 15:24:43 on Oct 02,2024, Elapsed time: 2:11:43
+# Errors: 0, Warnings: 6
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd failed with 1 errors.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd failed with 2 errors.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 1 failed with 2 errors.
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd failed with 2 errors.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 1 failed with 2 errors.
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd failed with 3 errors.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 1 failed with 3 errors.
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd failed with 1 errors.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd failed with 2 errors.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 1 failed with 2 errors.
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.protocheck_tb
+# vsim -gui work.protocheck_tb 
+# Start time: 15:39:01 on Oct 02,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.protocheck_tb(protocheck_tb_arq)
+# Loading work.protocheck(protocheck_arq)
+# Loading work.comparador(comparador_arq)
+# Loading work.shiftreg(shiftreg_arq)
+# Loading work.ffd(ffd_arq)
+# Loading work.genena(genena_arq)
+# Loading work.serial_sender(behavioral)
+add wave -position end  sim:/protocheck_tb/clk_tb
+add wave -position end  sim:/protocheck_tb/rst_tb
+add wave -position end  sim:/protocheck_tb/ena_tb
+add wave -position end  sim:/protocheck_tb/data_o_tb
+add wave -position end  sim:/protocheck_tb/q_o_tb
+run
+run
+quit -sim
+# End time: 17:32:33 on Oct 02,2024, Elapsed time: 1:53:32
+# Errors: 0, Warnings: 8
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.protocheck_tb
+# vsim -gui work.protocheck_tb 
+# Start time: 17:32:52 on Oct 02,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.protocheck_tb(protocheck_tb_arq)
+# Loading work.protocheck(protocheck_arq)
+# Loading work.comparador(comparador_arq)
+# Loading work.shiftreg(shiftreg_arq)
+# Loading work.ffd(ffd_arq)
+# Loading work.genena(genena_arq)
+# Loading work.serial_sender(behavioral)
+add wave -position end  sim:/protocheck_tb/clk_tb
+add wave -position end  sim:/protocheck_tb/rst_tb
+add wave -position end  sim:/protocheck_tb/ena_tb
+add wave -position end  sim:/protocheck_tb/data_o_tb
+add wave -position end  sim:/protocheck_tb/q_o_tb
+run
+run
+run
+run
+quit -sim
+# End time: 17:36:47 on Oct 02,2024, Elapsed time: 0:03:55
+# Errors: 0, Warnings: 2
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.protocheck_tb
+# vsim -gui work.protocheck_tb 
+# Start time: 17:37:00 on Oct 02,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.protocheck_tb(protocheck_tb_arq)
+# Loading work.protocheck(protocheck_arq)
+# Loading work.comparador(comparador_arq)
+# Loading work.shiftreg(shiftreg_arq)
+# Loading work.ffd(ffd_arq)
+# Loading work.genena(genena_arq)
+# Loading work.serial_sender(behavioral)
+add wave -position end  sim:/protocheck_tb/clk_tb
+add wave -position end  sim:/protocheck_tb/rst_tb
+add wave -position end  sim:/protocheck_tb/ena_tb
+add wave -position end  sim:/protocheck_tb/data_o_tb
+add wave -position end  sim:/protocheck_tb/q_o_tb
+run
+quit -sim
+# End time: 17:38:19 on Oct 02,2024, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 2
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.protocheck_tb
+# vsim -gui work.protocheck_tb 
+# Start time: 17:38:34 on Oct 02,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.protocheck_tb(protocheck_tb_arq)
+# Loading work.protocheck(protocheck_arq)
+# Loading work.comparador(comparador_arq)
+# Loading work.shiftreg(shiftreg_arq)
+# Loading work.ffd(ffd_arq)
+# Loading work.genena(genena_arq)
+# Loading work.serial_sender(behavioral)
+add wave -position end  sim:/protocheck_tb/clk_tb
+add wave -position end  sim:/protocheck_tb/rst_tb
+add wave -position end  sim:/protocheck_tb/ena_tb
+add wave -position end  sim:/protocheck_tb/data_o_tb
+add wave -position end  sim:/protocheck_tb/q_o_tb
+run
+run
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.protocheck_tb(protocheck_tb_arq)
+# Loading work.protocheck(protocheck_arq)
+# Loading work.comparador(comparador_arq)
+# Loading work.shiftreg(shiftreg_arq)
+# Loading work.ffd(ffd_arq)
+# Loading work.genena(genena_arq)
+# Loading work.serial_sender(behavioral)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.protocheck_tb(protocheck_tb_arq)
+# Loading work.protocheck(protocheck_arq)
+# Loading work.comparador(comparador_arq)
+# Loading work.shiftreg(shiftreg_arq)
+# Loading work.ffd(ffd_arq)
+# Loading work.genena(genena_arq)
+# Loading work.serial_sender(behavioral)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.protocheck_tb(protocheck_tb_arq)
+# Loading work.protocheck(protocheck_arq)
+# Loading work.comparador(comparador_arq)
+# Loading work.shiftreg(shiftreg_arq)
+# Loading work.ffd(ffd_arq)
+# Loading work.genena(genena_arq)
+# Loading work.serial_sender(behavioral)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.protocheck_tb(protocheck_tb_arq)
+# Loading work.protocheck(protocheck_arq)
+# Loading work.comparador(comparador_arq)
+# Loading work.shiftreg(shiftreg_arq)
+# Loading work.ffd(ffd_arq)
+# Loading work.genena(genena_arq)
+# Loading work.serial_sender(behavioral)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.protocheck_tb(protocheck_tb_arq)
+# Loading work.protocheck(protocheck_arq)
+# Loading work.comparador(comparador_arq)
+# Loading work.shiftreg(shiftreg_arq)
+# Loading work.ffd(ffd_arq)
+# Loading work.genena(genena_arq)
+# Loading work.serial_sender(behavioral)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.protocheck_tb(protocheck_tb_arq)
+# Loading work.protocheck(protocheck_arq)
+# Loading work.comparador(comparador_arq)
+# Loading work.shiftreg(shiftreg_arq)
+# Loading work.ffd(ffd_arq)
+# Loading work.genena(genena_arq)
+# Loading work.serial_sender(behavioral)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.protocheck_tb(protocheck_tb_arq)
+# Loading work.protocheck(protocheck_arq)
+# Loading work.comparador(comparador_arq)
+# Loading work.shiftreg(shiftreg_arq)
+# Loading work.ffd(ffd_arq)
+# Loading work.genena(genena_arq)
+# Loading work.serial_sender(behavioral)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.protocheck_tb(protocheck_tb_arq)
+# Loading work.protocheck(protocheck_arq)
+# Loading work.comparador(comparador_arq)
+# Loading work.shiftreg(shiftreg_arq)
+# Loading work.ffd(ffd_arq)
+# Loading work.genena(genena_arq)
+# Loading work.serial_sender(behavioral)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd failed with 1 errors.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd failed with 1 errors.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd failed with 1 errors.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd failed with 1 errors.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.protocheck_tb(protocheck_tb_arq)
+# Loading work.protocheck(protocheck_arq)
+# Loading work.comparador(comparador_arq)
+# Loading work.shiftreg(shiftreg_arq)
+# Loading work.ffd(ffd_arq)
+# Loading work.genena(genena_arq)
+# Loading work.serial_sender(behavioral)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.protocheck_tb(protocheck_tb_arq)
+# Loading work.protocheck(protocheck_arq)
+# Loading work.comparador(comparador_arq)
+# Loading work.shiftreg(shiftreg_arq)
+# Loading work.ffd(ffd_arq)
+# Loading work.genena(genena_arq)
+# Loading work.serial_sender(behavioral)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd failed with 1 errors.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.protocheck_tb(protocheck_tb_arq)
+# Loading work.protocheck(protocheck_arq)
+# Loading work.comparador(comparador_arq)
+# Loading work.shiftreg(shiftreg_arq)
+# Loading work.ffd(ffd_arq)
+# Loading work.genena(genena_arq)
+# Loading work.serial_sender(behavioral)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.protocheck_tb(protocheck_tb_arq)
+# Loading work.protocheck(protocheck_arq)
+# Loading work.comparador(comparador_arq)
+# Loading work.shiftreg(shiftreg_arq)
+# Loading work.ffd(ffd_arq)
+# Loading work.genena(genena_arq)
+# Loading work.serial_sender(behavioral)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+quit -sim
+# End time: 20:08:50 on Oct 02,2024, Elapsed time: 2:30:16
+# Errors: 0, Warnings: 2
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.protocheck_tb
+# vsim -gui work.protocheck_tb 
+# Start time: 20:09:06 on Oct 02,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.protocheck_tb(protocheck_tb_arq)
+# Loading work.protocheck(protocheck_arq)
+# Loading work.comparador(comparador_arq)
+# Loading work.shiftreg(shiftreg_arq)
+# Loading work.ffd(ffd_arq)
+# Loading work.genena(genena_arq)
+# Loading work.serial_sender(behavioral)
+add wave -position end  sim:/protocheck_tb/clk_tb
+add wave -position end  sim:/protocheck_tb/rst_tb
+add wave -position end  sim:/protocheck_tb/ena_tb
+add wave -position end  sim:/protocheck_tb/data_o_tb
+add wave -position end  sim:/protocheck_tb/q_o_tb
+run
+# Compile of comparador.vhd was successful.
+# Compile of protocheck2.vhd was successful.
+# Compile of protocheck2_tb.vhd was successful.
+# Compile of shiftreg.vhd was successful.
+# Compile of ffd.vhd was successful.
+# Compile of serializar.vhd was successful.
+# Compile of genEna.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+run
+# End time: 21:38:29 on Oct 02,2024, Elapsed time: 1:29:23
+# Errors: 0, Warnings: 3

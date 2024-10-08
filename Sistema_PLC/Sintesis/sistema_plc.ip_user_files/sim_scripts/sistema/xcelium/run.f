@@ -35,17 +35,6 @@
 -makelib xcelium_lib/xil_defaultlib \
   "../../../bd/sistema/ip/sistema_processing_system7_0_0/sim/sistema_processing_system7_0_0.v" \
 -endlib
--makelib xcelium_lib/xil_defaultlib \
-  "../../../bd/sistema/ipshared/7843/hdl/protocheck_ip_v1_0_S00_AXI.vhd" \
-  "../../../bd/sistema/ipshared/7843/hdl/protocheck_ip_v1_0.vhd" \
-  "../../../bd/sistema/ipshared/7843/src/comparador.vhd" \
-  "../../../bd/sistema/ipshared/7843/src/genEna.vhd" \
-  "../../../bd/sistema/ipshared/7843/src/shiftreg.vhd" \
-  "../../../bd/sistema/ipshared/7843/src/serializar.vhd" \
-  "../../../bd/sistema/ipshared/7843/src/protocheck2.vhd" \
-  "../../../bd/sistema/ipshared/7843/src/ffd.vhd" \
-  "../../../bd/sistema/ip/sistema_protocheck_ip_0_0/sim/sistema_protocheck_ip_0_0.vhd" \
--endlib
 -makelib xcelium_lib/lib_cdc_v1_0_2 \
   "../../../../sistema_plc.srcs/sources_1/bd/sistema/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd" \
 -endlib
@@ -54,6 +43,16 @@
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
   "../../../bd/sistema/ip/sistema_rst_ps7_0_50M_0/sim/sistema_rst_ps7_0_50M_0.vhd" \
+  "../../../bd/sistema/sim/sistema.vhd" \
+  "../../../bd/sistema/ipshared/00cc/hdl/protocheck3_ip_v1_0_S00_AXI.vhd" \
+  "../../../bd/sistema/ipshared/00cc/src/comparador.vhd" \
+  "../../../bd/sistema/ipshared/00cc/src/ffd.vhd" \
+  "../../../bd/sistema/ipshared/00cc/src/genEna.vhd" \
+  "../../../bd/sistema/ipshared/00cc/src/shiftreg.vhd" \
+  "../../../bd/sistema/ipshared/00cc/src/serializar.vhd" \
+  "../../../bd/sistema/ipshared/00cc/src/protocheck2.vhd" \
+  "../../../bd/sistema/ipshared/00cc/hdl/protocheck3_ip_v1_0.vhd" \
+  "../../../bd/sistema/ip/sistema_protocheck3_ip_0_0/sim/sistema_protocheck3_ip_0_0.vhd" \
 -endlib
 -makelib xcelium_lib/generic_baseblocks_v2_1_0 \
   "../../../../sistema_plc.srcs/sources_1/bd/sistema/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v" \
@@ -78,9 +77,6 @@
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
   "../../../bd/sistema/ip/sistema_auto_pc_0/sim/sistema_auto_pc_0.v" \
--endlib
--makelib xcelium_lib/xil_defaultlib \
-  "../../../bd/sistema/sim/sistema.vhd" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
   glbl.v

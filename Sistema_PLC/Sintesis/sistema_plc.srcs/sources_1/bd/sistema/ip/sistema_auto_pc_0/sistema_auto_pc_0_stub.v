@@ -3,8 +3,8 @@
 // Tool Version: Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
 // Date        : Tue Oct  1 10:01:57 2024
 // Host        : DESKTOP-6HQVPMI running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               c:/Working/MyS/Sistema_PLC/Sintesis/sistema_plc.srcs/sources_1/bd/sistema/ip/sistema_auto_pc_0/sistema_auto_pc_0_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top sistema_auto_pc_0 -prefix
+//               sistema_auto_pc_0_ sistema_auto_pc_0_stub.v
 // Design      : sistema_auto_pc_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z010clg400-1

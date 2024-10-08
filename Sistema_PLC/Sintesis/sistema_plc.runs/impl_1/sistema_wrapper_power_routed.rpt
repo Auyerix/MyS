@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
-| Date             : Tue Oct  1 10:04:37 2024
+| Date             : Wed Oct  2 20:27:17 2024
 | Host             : DESKTOP-6HQVPMI running 64-bit major release  (build 9200)
 | Command          : report_power -file sistema_wrapper_power_routed.rpt -pb sistema_wrapper_power_summary_routed.pb -rpx sistema_wrapper_power_routed.rpx
 | Design           : sistema_wrapper
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 1.381        |
+| Total On-Chip Power (W)  | 1.382        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 1.266        |
+| Dynamic (W)              | 1.267        |
 | Device Static (W)        | 0.115        |
 | Effective TJA (C/W)      | 11.5         |
 | Max Ambient (C)          | 69.1         |
@@ -53,16 +53,16 @@ Table of Contents
 | On-Chip                 | Power (W) | Used     | Available | Utilization (%) |
 +-------------------------+-----------+----------+-----------+-----------------+
 | Clocks                  |     0.003 |        3 |       --- |             --- |
-| Slice Logic             |     0.002 |     1528 |       --- |             --- |
-|   LUT as Logic          |     0.002 |      427 |     17600 |            2.43 |
-|   Register              |    <0.001 |      718 |     35200 |            2.04 |
+| Slice Logic             |     0.002 |     1540 |       --- |             --- |
+|   LUT as Logic          |     0.002 |      428 |     17600 |            2.43 |
+|   Register              |    <0.001 |      730 |     35200 |            2.07 |
 |   CARRY4                |    <0.001 |       31 |      4400 |            0.70 |
 |   LUT as Shift Register |    <0.001 |       60 |      6000 |            1.00 |
 |   Others                |     0.000 |      188 |       --- |             --- |
-| Signals                 |     0.002 |     1182 |       --- |             --- |
+| Signals                 |     0.002 |     1195 |       --- |             --- |
 | PS7                     |     1.259 |        1 |       --- |             --- |
 | Static Power            |     0.115 |          |           |                 |
-| Total                   |     1.381 |          |           |                 |
+| Total                   |     1.382 |          |           |                 |
 +-------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -148,14 +148,14 @@ Table of Contents
 +--------------------------------------------------+-----------+
 | Name                                             | Power (W) |
 +--------------------------------------------------+-----------+
-| sistema_wrapper                                  |     1.266 |
-|   sistema_i                                      |     1.266 |
+| sistema_wrapper                                  |     1.267 |
+|   sistema_i                                      |     1.267 |
 |     processing_system7_0                         |     1.259 |
 |       inst                                       |     1.259 |
-|     protocheck_ip_0                              |     0.002 |
+|     protocheck3_ip_0                             |     0.002 |
 |       U0                                         |     0.002 |
-|         protocheck_ip_v1_0_S00_AXI_inst          |     0.002 |
-|           sum_inst                               |    <0.001 |
+|         protocheck3_ip_v1_0_S00_AXI_inst         |     0.002 |
+|           protocheck_inst                        |    <0.001 |
 |             inst_genEna                          |    <0.001 |
 |             inst_serializar                      |    <0.001 |
 |             inst_shiftreg                        |    <0.001 |

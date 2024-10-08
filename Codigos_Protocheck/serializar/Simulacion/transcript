@@ -1,0 +1,74 @@
+vsim -gui work.serial_sender_tb
+# vsim -gui work.serial_sender_tb 
+# Start time: 00:11:31 on Oct 02,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.serial_sender_tb(serial_sender_tb_arq)
+# Loading work.serial_sender(behavioral)
+add wave -position end  sim:/serial_sender_tb/clk_tb
+add wave -position end  sim:/serial_sender_tb/rst_tb
+add wave -position end  sim:/serial_sender_tb/serial_out
+run
+run
+quit -sim
+# End time: 00:13:23 on Oct 02,2024, Elapsed time: 0:01:52
+# Errors: 0, Warnings: 1
+# Compile of serializar.vhd was successful.
+# Compile of serializar_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.serial_sender_tb
+# vsim -gui work.serial_sender_tb 
+# Start time: 00:15:48 on Oct 02,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.serial_sender_tb(serial_sender_tb_arq)
+# Loading work.serial_sender(behavioral)
+add wave -position end  sim:/serial_sender_tb/clk_tb
+add wave -position end  sim:/serial_sender_tb/rst_tb
+add wave -position end  sim:/serial_sender_tb/serial_out
+run
+run
+run
+quit -sim
+# End time: 00:16:47 on Oct 02,2024, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 2
+vsim -gui work.serial_sender_tb
+# vsim -gui work.serial_sender_tb 
+# Start time: 00:16:58 on Oct 02,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.serial_sender_tb(serial_sender_tb_arq)
+# Loading work.serial_sender(behavioral)
+add wave -position end  sim:/serial_sender_tb/clk_tb
+add wave -position end  sim:/serial_sender_tb/rst_tb
+add wave -position end  sim:/serial_sender_tb/serial_out
+run
+quit -sim
+# End time: 00:18:42 on Oct 02,2024, Elapsed time: 0:01:44
+# Errors: 0, Warnings: 1
+# Compile of serializar.vhd was successful.
+# Compile of serializar_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.serial_sender_tb
+# vsim -gui work.serial_sender_tb 
+# Start time: 00:19:08 on Oct 02,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.serial_sender_tb(serial_sender_tb_arq)
+# Loading work.serial_sender(behavioral)
+add wave -position end  sim:/serial_sender_tb/clk_tb
+add wave -position end  sim:/serial_sender_tb/rst_tb
+add wave -position end  sim:/serial_sender_tb/serial_out
+run
+quit -sim
+# End time: 00:21:16 on Oct 02,2024, Elapsed time: 0:02:08
+# Errors: 0, Warnings: 2
+project open C:/Working/CLP_Programs/Codigos/Protocheck2/Simulacion/protocheck2

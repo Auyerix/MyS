@@ -70,17 +70,6 @@ vlog -work processing_system7_vip_v1_0_4 -64 -sv -L smartconnect_v1_0 -L axi_pro
 vlog -work xil_defaultlib -64 "+incdir+../../../../sistema_plc.srcs/sources_1/bd/sistema/ipshared/ec67/hdl" "+incdir+../../../../sistema_plc.srcs/sources_1/bd/sistema/ipshared/02c8/hdl/verilog" "+incdir+../../../../sistema_plc.srcs/sources_1/bd/sistema/ipshared/b193/hdl" "+incdir+C:/Xilinx/Vivado/2018.1/data/xilinx_vip/include" "+incdir+../../../../sistema_plc.srcs/sources_1/bd/sistema/ipshared/ec67/hdl" "+incdir+../../../../sistema_plc.srcs/sources_1/bd/sistema/ipshared/02c8/hdl/verilog" "+incdir+../../../../sistema_plc.srcs/sources_1/bd/sistema/ipshared/b193/hdl" "+incdir+C:/Xilinx/Vivado/2018.1/data/xilinx_vip/include" \
 "../../../bd/sistema/ip/sistema_processing_system7_0_0/sim/sistema_processing_system7_0_0.v" \
 
-vcom -work xil_defaultlib -64 -93 \
-"../../../bd/sistema/ipshared/7843/hdl/protocheck_ip_v1_0_S00_AXI.vhd" \
-"../../../bd/sistema/ipshared/7843/hdl/protocheck_ip_v1_0.vhd" \
-"../../../bd/sistema/ipshared/7843/src/comparador.vhd" \
-"../../../bd/sistema/ipshared/7843/src/genEna.vhd" \
-"../../../bd/sistema/ipshared/7843/src/shiftreg.vhd" \
-"../../../bd/sistema/ipshared/7843/src/serializar.vhd" \
-"../../../bd/sistema/ipshared/7843/src/protocheck2.vhd" \
-"../../../bd/sistema/ipshared/7843/src/ffd.vhd" \
-"../../../bd/sistema/ip/sistema_protocheck_ip_0_0/sim/sistema_protocheck_ip_0_0.vhd" \
-
 vcom -work lib_cdc_v1_0_2 -64 -93 \
 "../../../../sistema_plc.srcs/sources_1/bd/sistema/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd" \
 
@@ -89,6 +78,16 @@ vcom -work proc_sys_reset_v5_0_12 -64 -93 \
 
 vcom -work xil_defaultlib -64 -93 \
 "../../../bd/sistema/ip/sistema_rst_ps7_0_50M_0/sim/sistema_rst_ps7_0_50M_0.vhd" \
+"../../../bd/sistema/sim/sistema.vhd" \
+"../../../bd/sistema/ipshared/00cc/hdl/protocheck3_ip_v1_0_S00_AXI.vhd" \
+"../../../bd/sistema/ipshared/00cc/src/comparador.vhd" \
+"../../../bd/sistema/ipshared/00cc/src/ffd.vhd" \
+"../../../bd/sistema/ipshared/00cc/src/genEna.vhd" \
+"../../../bd/sistema/ipshared/00cc/src/shiftreg.vhd" \
+"../../../bd/sistema/ipshared/00cc/src/serializar.vhd" \
+"../../../bd/sistema/ipshared/00cc/src/protocheck2.vhd" \
+"../../../bd/sistema/ipshared/00cc/hdl/protocheck3_ip_v1_0.vhd" \
+"../../../bd/sistema/ip/sistema_protocheck3_ip_0_0/sim/sistema_protocheck3_ip_0_0.vhd" \
 
 vlog -work generic_baseblocks_v2_1_0 -64 "+incdir+../../../../sistema_plc.srcs/sources_1/bd/sistema/ipshared/ec67/hdl" "+incdir+../../../../sistema_plc.srcs/sources_1/bd/sistema/ipshared/02c8/hdl/verilog" "+incdir+../../../../sistema_plc.srcs/sources_1/bd/sistema/ipshared/b193/hdl" "+incdir+C:/Xilinx/Vivado/2018.1/data/xilinx_vip/include" "+incdir+../../../../sistema_plc.srcs/sources_1/bd/sistema/ipshared/ec67/hdl" "+incdir+../../../../sistema_plc.srcs/sources_1/bd/sistema/ipshared/02c8/hdl/verilog" "+incdir+../../../../sistema_plc.srcs/sources_1/bd/sistema/ipshared/b193/hdl" "+incdir+C:/Xilinx/Vivado/2018.1/data/xilinx_vip/include" \
 "../../../../sistema_plc.srcs/sources_1/bd/sistema/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v" \
@@ -113,9 +112,6 @@ vlog -work axi_protocol_converter_v2_1_16 -64 "+incdir+../../../../sistema_plc.s
 
 vlog -work xil_defaultlib -64 "+incdir+../../../../sistema_plc.srcs/sources_1/bd/sistema/ipshared/ec67/hdl" "+incdir+../../../../sistema_plc.srcs/sources_1/bd/sistema/ipshared/02c8/hdl/verilog" "+incdir+../../../../sistema_plc.srcs/sources_1/bd/sistema/ipshared/b193/hdl" "+incdir+C:/Xilinx/Vivado/2018.1/data/xilinx_vip/include" "+incdir+../../../../sistema_plc.srcs/sources_1/bd/sistema/ipshared/ec67/hdl" "+incdir+../../../../sistema_plc.srcs/sources_1/bd/sistema/ipshared/02c8/hdl/verilog" "+incdir+../../../../sistema_plc.srcs/sources_1/bd/sistema/ipshared/b193/hdl" "+incdir+C:/Xilinx/Vivado/2018.1/data/xilinx_vip/include" \
 "../../../bd/sistema/ip/sistema_auto_pc_0/sim/sistema_auto_pc_0.v" \
-
-vcom -work xil_defaultlib -64 -93 \
-"../../../bd/sistema/sim/sistema.vhd" \
 
 vlog -work xil_defaultlib \
 "glbl.v"

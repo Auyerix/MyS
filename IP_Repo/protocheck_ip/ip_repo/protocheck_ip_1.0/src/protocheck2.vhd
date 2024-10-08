@@ -33,6 +33,7 @@ architecture protocheck_arq of protocheck is
 	signal salida_comparador2: std_logic;
 
 	signal serial: std_logic;
+	signal is_ok:	std_logic;
 	
 begin
 	--Parte descriptiva
@@ -59,7 +60,22 @@ begin
 	--lógica de salida de la validación de comparación y de cantidad de pulsos
 	--se vuelca en la salida del módulo que servirá para latchear las salidas reales
 	q_o 	<= salida_genEna and salida_comparador1 and salida_comparador2;
+	is_oK   <= salida_genEna and salida_comparador1 and salida_comparador2;
+	
+	process (clk_i, rst_i)
+    begin
+        if rst_i = '1' then
+            data_o    <= (others => '0');
 
+        elsif rising_edge(clk_i) then
+
+            if is_ok = '1'  then
+                data_o    <= auxi;  -- Almacena el valor de data_o
+
+            -- Si is_ok es '0', no hace nada y mantiene el valor almacenado
+            end if;
+        end if;
+    end process;
 
 	--comparador que chequea el dato
 	inst_comparador_dato: entity work.comparador

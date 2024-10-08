@@ -1,0 +1,61 @@
+
+*** Running vivado
+    with args -log protocheck_ip_v1_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source protocheck_ip_v1_0.tcl
+
+
+****** Vivado v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+Sourcing tcl script 'C:/Users/gusta/AppData/Roaming/Xilinx/Vivado/Vivado_init.tcl'
+source protocheck_ip_v1_0.tcl -notrace
+Command: synth_design -top protocheck_ip_v1_0 -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12916 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 408.883 ; gain = 94.672
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'protocheck_ip_v1_0' [c:/Working/MyS/IP_Repo/protocheck_ip/ip_repo/protocheck_ip_1.0/hdl/protocheck_ip_v1_0.vhd:49]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'protocheck_ip_v1_0_S00_AXI' declared at 'c:/Working/MyS/IP_Repo/protocheck_ip/ip_repo/protocheck_ip_1.0/hdl/protocheck_ip_v1_0_S00_AXI.vhd:5' bound to instance 'protocheck_ip_v1_0_S00_AXI_inst' of component 'protocheck_ip_v1_0_S00_AXI' [c:/Working/MyS/IP_Repo/protocheck_ip/ip_repo/protocheck_ip_1.0/hdl/protocheck_ip_v1_0.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'protocheck_ip_v1_0_S00_AXI' [c:/Working/MyS/IP_Repo/protocheck_ip/ip_repo/protocheck_ip_1.0/hdl/protocheck_ip_v1_0_S00_AXI.vhd:86]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'protocheck' [c:/Working/MyS/IP_Repo/protocheck_ip/ip_repo/protocheck_ip_1.0/src/protocheck2.vhd:18]
+	Parameter N bound to: 12 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'comparador' [c:/Working/MyS/IP_Repo/protocheck_ip/ip_repo/protocheck_ip_1.0/src/comparador.vhd:17]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'comparador' (1#1) [c:/Working/MyS/IP_Repo/protocheck_ip/ip_repo/protocheck_ip_1.0/src/comparador.vhd:17]
+INFO: [Synth 8-638] synthesizing module 'comparador__parameterized0' [c:/Working/MyS/IP_Repo/protocheck_ip/ip_repo/protocheck_ip_1.0/src/comparador.vhd:17]
+	Parameter N bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'comparador__parameterized0' (1#1) [c:/Working/MyS/IP_Repo/protocheck_ip/ip_repo/protocheck_ip_1.0/src/comparador.vhd:17]
+INFO: [Synth 8-638] synthesizing module 'shiftreg' [c:/Working/MyS/IP_Repo/protocheck_ip/ip_repo/protocheck_ip_1.0/src/shiftreg.vhd:18]
+	Parameter N bound to: 12 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'ffd' [c:/Working/MyS/IP_Repo/protocheck_ip/ip_repo/protocheck_ip_1.0/src/ffd.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'ffd' (2#1) [c:/Working/MyS/IP_Repo/protocheck_ip/ip_repo/protocheck_ip_1.0/src/ffd.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'shiftreg' (3#1) [c:/Working/MyS/IP_Repo/protocheck_ip/ip_repo/protocheck_ip_1.0/src/shiftreg.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'genEna' [c:/Working/MyS/IP_Repo/protocheck_ip/ip_repo/protocheck_ip_1.0/src/genEna.vhd:16]
+	Parameter N bound to: 12 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'genEna' (4#1) [c:/Working/MyS/IP_Repo/protocheck_ip/ip_repo/protocheck_ip_1.0/src/genEna.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'serial_sender' [c:/Working/MyS/IP_Repo/protocheck_ip/ip_repo/protocheck_ip_1.0/src/serializar.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'serial_sender' (5#1) [c:/Working/MyS/IP_Repo/protocheck_ip/ip_repo/protocheck_ip_1.0/src/serializar.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'protocheck' (6#1) [c:/Working/MyS/IP_Repo/protocheck_ip/ip_repo/protocheck_ip_1.0/src/protocheck2.vhd:18]
+ERROR: [Synth 8-549] port width mismatch for port 'data_o': port width = 12, actual width = 32 [c:/Working/MyS/IP_Repo/protocheck_ip/ip_repo/protocheck_ip_1.0/hdl/protocheck_ip_v1_0_S00_AXI.vhd:420]
+ERROR: [Synth 8-285] failed synthesizing module 'protocheck_ip_v1_0_S00_AXI' [c:/Working/MyS/IP_Repo/protocheck_ip/ip_repo/protocheck_ip_1.0/hdl/protocheck_ip_v1_0_S00_AXI.vhd:86]
+ERROR: [Synth 8-285] failed synthesizing module 'protocheck_ip_v1_0' [c:/Working/MyS/IP_Repo/protocheck_ip/ip_repo/protocheck_ip_1.0/hdl/protocheck_ip_v1_0.vhd:49]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 464.000 ; gain = 149.789
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+19 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Mon Sep 30 19:22:33 2024...

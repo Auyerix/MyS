@@ -1,25 +1,324 @@
-21:16:50 **** Incremental Build of configuration Debug for project plc ****
+21:01:03 **** Incremental Build of configuration Debug for project plc_2 ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 make: No se hace nada para `main-build'.
-21:24:51 **** Incremental Build of configuration Debug for project plc ****
+21:01:20 **** Incremental Build of configuration Debug for project plc_2 ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
-'Building file: ../src/plc.c'
+'Building file: ../src/plc_1.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/plc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../plc_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/plc.d" -MT"src/plc.o" -o "src/plc.o" "../src/plc.c"
-'Finished building: ../src/plc.c'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/plc_1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../plc_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/plc_1.d" -MT"src/plc_1.o" -o "src/plc_1.o" "../src/plc_1.c"
+../src/plc_1.c: In function 'main':
+../src/plc_1.c:14:6: warning: unused variable 'opB' [-Wunused-variable]
+  int opB = 800;
+      ^~~
+../src/plc_1.c:13:6: warning: unused variable 'opA' [-Wunused-variable]
+  int opA = 1256;
+      ^~~
+'Finished building: ../src/plc_1.c'
 ' '
-'Building target: plc.elf'
+'Building target: plc_2.elf'
 'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../plc_bsp/ps7_cortexa9_0/lib -o "plc.elf"  ./src/plc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: plc.elf'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../plc_2_bsp/ps7_cortexa9_0/lib -o "plc_2.elf"  ./src/plc_1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: plc_2.elf'
 ' '
 'Invoking: ARM v7 Print Size'
-arm-none-eabi-size plc.elf  |tee "plc.elf.size"
+arm-none-eabi-size plc_2.elf  |tee "plc_2.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  22420	   1144	  22568	  46132	   b434	plc.elf
-'Finished building: plc.elf.size'
+  22404	   1144	  22568	  46116	   b424	plc_2.elf
+'Finished building: plc_2.elf.size'
 ' '
+21:01:33 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+21:12:27 **** Auto Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/plc_1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/plc_1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../plc_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/plc_1.d" -MT"src/plc_1.o" -o "src/plc_1.o" "../src/plc_1.c"
+../src/plc_1.c: In function 'main':
+../src/plc_1.c:14:6: warning: unused variable 'opB' [-Wunused-variable]
+  int opB = 800;
+      ^~~
+../src/plc_1.c:13:6: warning: unused variable 'opA' [-Wunused-variable]
+  int opA = 1256;
+      ^~~
+'Finished building: ../src/plc_1.c'
+' '
+'Building target: plc_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../plc_2_bsp/ps7_cortexa9_0/lib -o "plc_2.elf"  ./src/plc_1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: plc_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size plc_2.elf  |tee "plc_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22404	   1144	  22568	  46116	   b424	plc_2.elf
+'Finished building: plc_2.elf.size'
+' '
+21:12:41 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+21:12:51 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+14:51:04 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+14:54:23 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+14:54:59 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+14:56:38 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+14:59:47 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+15:01:04 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/plc_1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/plc_1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../plc_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/plc_1.d" -MT"src/plc_1.o" -o "src/plc_1.o" "../src/plc_1.c"
+'Finished building: ../src/plc_1.c'
+' '
+'Building target: plc_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../plc_2_bsp/ps7_cortexa9_0/lib -o "plc_2.elf"  ./src/plc_1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: plc_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size plc_2.elf  |tee "plc_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22420	   1144	  22568	  46132	   b434	plc_2.elf
+'Finished building: plc_2.elf.size'
+' '
+15:24:34 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+15:27:52 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/plc_1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/plc_1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../plc_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/plc_1.d" -MT"src/plc_1.o" -o "src/plc_1.o" "../src/plc_1.c"
+../src/plc_1.c: In function 'main':
+../src/plc_1.c:14:6: warning: unused variable 'opB' [-Wunused-variable]
+  int opB = 800;
+      ^~~
+../src/plc_1.c:13:6: warning: unused variable 'opA' [-Wunused-variable]
+  int opA = 1256;
+      ^~~
+'Finished building: ../src/plc_1.c'
+' '
+'Building target: plc_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../plc_2_bsp/ps7_cortexa9_0/lib -o "plc_2.elf"  ./src/plc_1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: plc_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size plc_2.elf  |tee "plc_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22404	   1144	  22568	  46116	   b424	plc_2.elf
+'Finished building: plc_2.elf.size'
+' '
+15:30:22 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/plc_1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/plc_1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../plc_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/plc_1.d" -MT"src/plc_1.o" -o "src/plc_1.o" "../src/plc_1.c"
+../src/plc_1.c: In function 'main':
+../src/plc_1.c:14:6: warning: unused variable 'opB' [-Wunused-variable]
+  int opB = 800;
+      ^~~
+../src/plc_1.c:13:6: warning: unused variable 'opA' [-Wunused-variable]
+  int opA = 1256;
+      ^~~
+'Finished building: ../src/plc_1.c'
+' '
+'Building target: plc_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../plc_2_bsp/ps7_cortexa9_0/lib -o "plc_2.elf"  ./src/plc_1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: plc_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size plc_2.elf  |tee "plc_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22404	   1144	  22568	  46116	   b424	plc_2.elf
+'Finished building: plc_2.elf.size'
+' '
+16:06:28 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/plc_1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/plc_1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../plc_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/plc_1.d" -MT"src/plc_1.o" -o "src/plc_1.o" "../src/plc_1.c"
+../src/plc_1.c: In function 'main':
+../src/plc_1.c:14:6: warning: unused variable 'opB' [-Wunused-variable]
+  int opB = 800;
+      ^~~
+../src/plc_1.c:13:6: warning: unused variable 'opA' [-Wunused-variable]
+  int opA = 1256;
+      ^~~
+'Finished building: ../src/plc_1.c'
+' '
+'Building target: plc_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../plc_2_bsp/ps7_cortexa9_0/lib -o "plc_2.elf"  ./src/plc_1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: plc_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size plc_2.elf  |tee "plc_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22788	   1144	  22568	  46500	   b5a4	plc_2.elf
+'Finished building: plc_2.elf.size'
+' '
+16:07:31 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+16:08:55 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/plc_1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/plc_1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../plc_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/plc_1.d" -MT"src/plc_1.o" -o "src/plc_1.o" "../src/plc_1.c"
+../src/plc_1.c: In function 'main':
+../src/plc_1.c:14:6: warning: unused variable 'opB' [-Wunused-variable]
+  int opB = 800;
+      ^~~
+../src/plc_1.c:13:6: warning: unused variable 'opA' [-Wunused-variable]
+  int opA = 1256;
+      ^~~
+'Finished building: ../src/plc_1.c'
+' '
+'Building target: plc_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../plc_2_bsp/ps7_cortexa9_0/lib -o "plc_2.elf"  ./src/plc_1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: plc_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size plc_2.elf  |tee "plc_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22788	   1144	  22568	  46500	   b5a4	plc_2.elf
+'Finished building: plc_2.elf.size'
+' '
+16:09:55 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+16:10:19 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+16:11:50 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+16:12:13 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+16:13:23 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+16:21:10 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/plc_1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/plc_1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../plc_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/plc_1.d" -MT"src/plc_1.o" -o "src/plc_1.o" "../src/plc_1.c"
+../src/plc_1.c: In function 'main':
+../src/plc_1.c:14:6: warning: unused variable 'opB' [-Wunused-variable]
+  int opB = 800;
+      ^~~
+../src/plc_1.c:13:6: warning: unused variable 'opA' [-Wunused-variable]
+  int opA = 1256;
+      ^~~
+'Finished building: ../src/plc_1.c'
+' '
+'Building target: plc_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../plc_2_bsp/ps7_cortexa9_0/lib -o "plc_2.elf"  ./src/plc_1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: plc_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size plc_2.elf  |tee "plc_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22916	   1144	  22568	  46628	   b624	plc_2.elf
+'Finished building: plc_2.elf.size'
+' '
+16:22:56 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+16:23:19 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+16:25:24 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+16:25:35 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+16:26:48 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+16:27:18 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+19:59:10 **** Incremental Build of configuration Debug for project plc_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
